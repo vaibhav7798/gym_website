@@ -1,0 +1,111 @@
+.left {
+    /* border: 2px solid blue; */
+    color: wheat;
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 2opx;
+}
+
+.middle {
+    /* border: 2px solid green; */
+    color: wheat;
+    display: block;
+    width: 37%;
+    margin: 20px auto;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    /* border: 2px solid purple; */
+    color: wheat;
+    display: inline-block;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 30px 10px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: chartreuse;
+    text-decoration: underline;
+}
+
+.left img {
+    width: 136px;
+    height: 62px;
+
+}
+
+.left div {
+    text-align: center;
+    line-height: 18px;
+    font-size: 26px;
+}
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    margin: opx 10px;
+    padding: 4px 14px;
+    color: white;
+    background-color: black;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(116, 93, 74);
+}
+
+/*header section close*/
+
+.container {
+    border: 2px solid white;
+    border-radius: 30px;
+    margin: 100px 70px;
+    padding: 60px;
+    display: block;
+    width: 30%;
+}
+
+.container h2 {
+    text-align: center;
+    font-weight: 700px;
+    color: white;
+}
+
+.container button:hover
+{
+  background-color: rgb(51, 50, 16);
+}
+.form_group input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border: 2pxs solid black;
+    border-radius: 8px;
+    margin: 10px auto;
+    padding: 1px;
+    width: 400px;
+    display: block;
+}
+
+.container button {
+    display: block;
+    width: 396px;
+    margin: 15px auto;
+    padding: 5px;
+}
